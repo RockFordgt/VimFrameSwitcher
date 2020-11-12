@@ -1,0 +1,11 @@
+﻿{
+    \"Name\" : \"VimFrameSwitcher\",
+    \"Version\" : \"0.0.1\",
+    \"CompatVersion\" : \"0.0.1\",
+    \"Vendor\" : \"Bytescape\",
+    \"Copyright\" : \"(C) Bytescape\",
+    \"License\" : \"BSD\",
+    \"Description\" : \"Switch frames with vim like key shortcuts (hjkl)\",
+    \"Url\" : \"bytescape.com\",
+    $$dependencyList
+}
