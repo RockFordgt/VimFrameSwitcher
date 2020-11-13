@@ -1,10 +1,10 @@
-name: Build plugin
+﻿name: Build plugin
 
 on: [push]
 
 env:
-  QT_VERSION: 5.15.0
-  QT_CREATOR_VERSION: 4.14.0-beta1
+  QT_VERSION: 5.15.1
+  QT_CREATOR_VERSION: 4.13.2
   QT_CREATOR_SNAPSHOT: NO
   PLUGIN_PRO: vimframeswitcher.pro
   PLUGIN_NAME: VimFrameSwitcher
