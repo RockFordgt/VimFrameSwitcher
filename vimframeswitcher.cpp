@@ -58,10 +58,27 @@ bool VimFrameSwitcherPlugin::initialize(const QStringList &arguments, QString *e
     Core::Command *cmd_up   = Core::ActionManager::registerAction(action_up,    Constants::ACTION_DOWN_ID, Core::Context(Core::Constants::C_GLOBAL));
     Core::Command *cmd_down = Core::ActionManager::registerAction(action_down,  Constants::ACTION_UP_ID, Core::Context(Core::Constants::C_GLOBAL));
 
-    cmd_left->setDefaultKeySequence(QKeySequence(tr("Alt+Meta+h")));
-    cmd_right->setDefaultKeySequence(QKeySequence(tr("Alt+Meta+l")));
-    cmd_up->setDefaultKeySequence(QKeySequence(tr("Alt+Meta+k")));
-    cmd_down->setDefaultKeySequence(QKeySequence(tr("Alt+Meta+j")));
+    cmd_left->setDefaultKeySequences(QList<QKeySequence>({
+                                                             QKeySequence(tr("Alt+H")),
+                                                             QKeySequence(tr("Ctrl+W,H")),
+                                                             QKeySequence(tr("Alt+Meta+H")),
+                                                         }));
+
+    cmd_right->setDefaultKeySequences(QList<QKeySequence>({
+                                                              QKeySequence(tr("Alt+L")),
+                                                              QKeySequence(tr("Ctrl+W,L")),
+                                                              QKeySequence(tr("Alt+Meta+L")),
+                                                          }));
+    cmd_up->setDefaultKeySequences(QList<QKeySequence>({
+                                                           QKeySequence(tr("Alt+K")),
+                                                           QKeySequence(tr("Ctrl+W,K")),
+                                                           QKeySequence(tr("Alt+Meta+K")),
+                                                       }));
+    cmd_down->setDefaultKeySequences(QList<QKeySequence>({
+                                                             QKeySequence(tr("Alt+J")),
+                                                             QKeySequence(tr("Ctrl+W,J")),
+                                                             QKeySequence(tr("Alt+Meta+J")),
+                                                         }));
 
     connect(action_left,  &QAction::triggered, this, &VimFrameSwitcherPlugin::triggerLeft_h);
     connect(action_right, &QAction::triggered, this, &VimFrameSwitcherPlugin::triggerRight_l);
