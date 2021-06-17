@@ -1,7 +1,7 @@
 ﻿{
     \"Name\" : \"VimFrameSwitcher\",
-    \"Version\" : \"0.0.1\",
-    \"CompatVersion\" : \"0.0.1\",
+    \"Version\" : \"4.15.1\",
+    \"CompatVersion\" : \"4.15.1\",
     \"Vendor\" : \"Bytescape Radosław Wicik\",
     \"Copyright\" : \"(C) Bytescape Radosław Wicik\",
     \"License\" : \"BSD\",
