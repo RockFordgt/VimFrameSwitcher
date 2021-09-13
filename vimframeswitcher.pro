@@ -14,6 +14,8 @@ DISTFILES += \
         .github/workflows/build_qmake.yml \
         .github/workflows/README.md
 
+OTHER_FILES += VimFrameSwitcher.json.in
+
 # Qt Creator linking
 
 ## Either set the IDE_SOURCE_TREE when running qmake,
@@ -52,3 +54,4 @@ QTC_PLUGIN_RECOMMENDS += \
 ###### End _dependencies.pri contents ######
 
 include($$IDE_SOURCE_TREE/src/qtcreatorplugin.pri)
+

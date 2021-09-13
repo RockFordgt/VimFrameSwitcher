@@ -4,7 +4,7 @@ on: [push]
 
 env:
   QT_VERSION: 5.15.2
-  QT_CREATOR_VERSION: 4.15.1
+  QT_CREATOR_VERSION: 4.15.2
   QT_CREATOR_SNAPSHOT: NO
   PLUGIN_PRO: vimframeswitcher.pro
   PLUGIN_NAME: VimFrameSwitcher
