@@ -11,7 +11,7 @@ find_package(QtCreator COMPONENTS Core REQUIRED)
 find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets REQUIRED)
 set(QtX Qt${QT_VERSION_MAJOR})
 
-add_qtc_plugin(Example
+add_qtc_plugin(VimFrameSwitcher
   PLUGIN_DEPENDS
     QtCreator::Core
   DEPENDS
