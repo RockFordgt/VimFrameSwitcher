@@ -1,3 +1,5 @@
+
+list(APPEND CMAKE_PREFIX_PATH "/home/rockford/workspace/qt-creator-build")
 project(VimFrameSwitcher)
 
 set(CMAKE_AUTOMOC ON)
