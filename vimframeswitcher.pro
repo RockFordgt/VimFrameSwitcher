@@ -11,8 +11,9 @@ HEADERS += \
         vimframeswitcherconstants.hpp
 
 DISTFILES += \
-        .github/workflows/build_qmake.yml \
-        .github/workflows/README.md
+        .github/workflows/build_cmake.yml \
+        .github/workflows/README.md \
+        CMakeLists.txt
 
 OTHER_FILES += VimFrameSwitcher.json.in
 
