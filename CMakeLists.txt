@@ -14,6 +14,7 @@ set(QtX Qt${QT_VERSION_MAJOR})
 add_qtc_plugin(VimFrameSwitcher
   PLUGIN_DEPENDS
     QtCreator::Core
+    QtCreator::TextEditor
   DEPENDS
     ${QtX}::Widgets
     QtCreator::ExtensionSystem
