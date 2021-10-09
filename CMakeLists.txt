@@ -1,5 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
 
-list(APPEND CMAKE_PREFIX_PATH "/home/rockford/workspace/qt-creator-build")
 project(VimFrameSwitcher)
 
 set(CMAKE_AUTOMOC ON)
