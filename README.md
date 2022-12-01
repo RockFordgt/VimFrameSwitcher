@@ -33,6 +33,7 @@ z - update for new QtCreator
 | v1.1.1  |  4.15.1 |
 | v1.1.2  |  4.15.2 |
 | v1.1.3  |  8.0.1 |
+| v1.1.4  |  9.0.0 |
 
 
 ## Installing
