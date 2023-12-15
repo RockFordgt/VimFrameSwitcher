@@ -1,11 +1,11 @@
 ﻿{
-    \"Name\" : \"VimFrameSwitcher\",
-    \"Version\" : \"1.1.6\",
-    \"CompatVersion\" : \"1.1.6\",
-    \"Vendor\" : \"Bytescape Radosław Wicik\",
-    \"Copyright\" : \"(C) 2020-2022 Bytescape Radosław Wicik\",
-    \"License\" : \"BSD\",
-    \"Description\" : \"Switch frames with vim like key shortcuts (hjkl)\",
-    \"Url\" : \"\",
-    $$dependencyList
+    "Name" : "VimFrameSwitcher",
+    "Version" : "1.1.7",
+    "CompatVersion" : "1.1.7",
+    "Vendor" : "Bytescape Radosław Wicik",
+    "Copyright" : "(C) 2020-2022 Bytescape Radosław Wicik",
+    "License" : "BSD",
+    "Description" : "Switch frames with vim like key shortcuts (hjkl)",
+    "Url" : "https://github.com/RockFordgt/VimFrameSwitcher",
+    ${IDE_PLUGIN_DEPENDENCIES}
 }
