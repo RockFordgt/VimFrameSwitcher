@@ -1,7 +1,7 @@
 ﻿{
     "Name" : "VimFrameSwitcher",
-    "Version" : "1.1.7",
-    "CompatVersion" : "1.1.7",
+    "Version" : "1.1.8",
+    "CompatVersion" : "1.1.8",
     "Vendor" : "Bytescape Radosław Wicik",
     "Copyright" : "(C) 2020-2022 Bytescape Radosław Wicik",
     "License" : "BSD",
