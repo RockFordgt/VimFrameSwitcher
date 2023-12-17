@@ -55,8 +55,8 @@ bool VimFrameSwitcherPlugin::initialize(const QStringList &arguments, QString *e
 
     Core::Command *cmd_left = Core::ActionManager::registerAction(action_left,  Constants::ACTION_LEFT_ID, Core::Context(Core::Constants::C_GLOBAL));
     Core::Command *cmd_right= Core::ActionManager::registerAction(action_right, Constants::ACTION_RIGHT_ID, Core::Context(Core::Constants::C_GLOBAL));
-    Core::Command *cmd_up   = Core::ActionManager::registerAction(action_up,    Constants::ACTION_DOWN_ID, Core::Context(Core::Constants::C_GLOBAL));
-    Core::Command *cmd_down = Core::ActionManager::registerAction(action_down,  Constants::ACTION_UP_ID, Core::Context(Core::Constants::C_GLOBAL));
+    Core::Command *cmd_up   = Core::ActionManager::registerAction(action_up,    Constants::ACTION_UP_ID, Core::Context(Core::Constants::C_GLOBAL));
+    Core::Command *cmd_down = Core::ActionManager::registerAction(action_down,  Constants::ACTION_DOWN_ID, Core::Context(Core::Constants::C_GLOBAL));
 
     cmd_left->setDefaultKeySequences(QList<QKeySequence>({
                                                              QKeySequence(tr("Ctrl+E,H")),
