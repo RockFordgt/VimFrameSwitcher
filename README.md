@@ -30,6 +30,7 @@ z - update for new QtCreator
 
 | Version | QtCrator version| Remarks |
 |---------|-----------------|---------|
+| v1.1.11 |  15.0.0 | |
 | v1.1.10 |  14.0.0 | |
 | v1.1.9  |  13.0.0 | |
 | v1.1.8  |  12.0.1 | bugfixes |
