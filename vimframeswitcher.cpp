@@ -36,7 +36,7 @@ VimFrameSwitcherPlugin::~VimFrameSwitcherPlugin()
     // Delete members
 }
 
-bool VimFrameSwitcherPlugin::initialize(const QStringList &arguments, QString *errorString)
+Utils::Result<> VimFrameSwitcherPlugin::initialize(const QStringList &arguments)
 {
     // Register objects in the plugin manager's object pool
     // Load settings
@@ -46,7 +46,6 @@ bool VimFrameSwitcherPlugin::initialize(const QStringList &arguments, QString *e
     // depends on have initialized their members.
 
     Q_UNUSED(arguments)
-    Q_UNUSED(errorString)
 
     auto action_left = new QAction(tr("Jump to left"), this);
     auto action_right = new QAction(tr("Jump to right"), this);
@@ -90,7 +89,7 @@ bool VimFrameSwitcherPlugin::initialize(const QStringList &arguments, QString *e
 
     Core::ActionManager::actionContainer(Core::Constants::M_TOOLS)->addMenu(menu);
 
-    return true;
+    return Utils::ResultOk;
 }
 
 void VimFrameSwitcherPlugin::extensionsInitialized()

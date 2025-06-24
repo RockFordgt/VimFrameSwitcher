@@ -32,7 +32,7 @@ public:
     VimFrameSwitcherPlugin();
     ~VimFrameSwitcherPlugin() override;
 
-    bool initialize(const QStringList &arguments, QString *errorString) override;
+    Utils::Result<> initialize(const QStringList &arguments) override;
     void extensionsInitialized() override;
     ShutdownFlag aboutToShutdown() override;
 
