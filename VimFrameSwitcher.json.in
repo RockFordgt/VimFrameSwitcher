@@ -1,8 +1,8 @@
 ﻿{
     "Id": "vimframeswitcher",
     "Name": "VimFrameSwitcher",
-    "Version": "1.1.14",
-    "CompatVersion": "1.1.14",
+    "Version": "1.1.15",
+    "CompatVersion": "1.1.15",
     "VendorId": "bytescape_radoslaw_wicik",
     "Vendor": "Bytescape Radosław Wicik",
     "Copyright": "(C) 2020-2025 Bytescape Radosław Wicik",
